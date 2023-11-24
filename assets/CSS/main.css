@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: calc(100% - 120px);
+    margin: auto;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: whitesmoke;
+    box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.195);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+    width: 35px;
+}
+nav ul a{
+    color: rgba(0, 0, 0, 0.615);
+    font-size: 17px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+.active a{
+    color: black;
+    font-size: 18px
+}
+.auth{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+header .auth a{
+    padding: 7px 20px;
+}
+.login a{
+  padding: 30px;  
+}
+.login a{
+ border: 2px solid #545BE8 ;
+ color: #545BE8;
+ border-radius: 10px;
+}
+header .register a{
+    color: white;
+    
+}
+.register{
+    background-color: #545BE8;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+
